@@ -27,6 +27,7 @@ def loop(keywords, order):
     print("Top Videos are:")
     print(final.head(5))
     final.head(5).to_csv("videos.csv", index=False)
+    return(final.head(5).to_dict())
     
 
     

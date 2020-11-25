@@ -16,7 +16,7 @@ def main():
     words = input("Enter the keywords: ")
     words = words.split(",")
     order = input("Order by relevance or viewer count?: ")
-    loop(words, order)
+    return(loop(words, order))
 
 if __name__ == "__main__":
     main()
